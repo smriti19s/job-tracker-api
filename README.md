@@ -59,6 +59,7 @@ http://localhost:xxxx/swagger
 ---
 
 ## 📸 API Preview
+<img width="1828" height="560" alt="image" src="https://github.com/user-attachments/assets/c365b53f-e979-4bd2-a926-de98b0fab8d0" />
 
 (Add Swagger screenshot here later)
 
