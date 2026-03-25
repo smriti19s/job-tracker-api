@@ -3,43 +3,30 @@ using JOB_Tracker.API.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var conn = builder.Configuration.GetConnectionString("DefaultConnection");
-Console.WriteLine("CONNECTION STRING: " + conn);
 
-// Add services to the container.
+// Add services
 builder.Services.AddScoped<IJobRepository, JobRepository>();
-
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 
-// 🔥 Add Swagger
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//var app = builder.Build();
-builder.Services.AddOpenApi();
+builder.Services.AddAutoMapper(typeof(Program));
 
-// Configure DbContext for EF Core (reads connection string from appsettings.json)
+// DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+// ❌ Disable HTTPS for now
+// app.UseHttpsRedirection();
 
-app.UseHttpsRedirection();
+// ✅ Enable Swagger ALWAYS
+app.UseSwagger();
+app.UseSwaggerUI();
 
-
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    
-    app.UseSwaggerUI();
-}
 
 app.UseAuthorization();
 

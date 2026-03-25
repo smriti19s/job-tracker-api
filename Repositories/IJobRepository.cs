@@ -7,7 +7,7 @@ namespace JOB_Tracker.API.Repositories
         Task<IEnumerable<Job>> GetAllAsync(int userId);
         Task<Job> GetByIdAsync(int id);
         Task AddAsync(Job job);
-        Task UpdateAsync(Job job);
+        Task UpdateAsync(int id,Job job);
         Task DeleteAsync(int id);
     }
 }
