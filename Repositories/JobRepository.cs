@@ -31,7 +31,7 @@ namespace JOB_Tracker.API.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Job job)
+        public async Task UpdateAsync(int id, Job job)
         {
             _context.Jobs.Update(job);
             await _context.SaveChangesAsync();
@@ -46,6 +46,25 @@ namespace JOB_Tracker.API.Repositories
                 await _context.SaveChangesAsync();
             }
 
+        }
+
+        //public Task UpdateAsync(int id, Job job)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+
+        public async Task<IEnumerable<Job>> GetPagedAsync(int pageNumber, int pageSize)
+        {
+            return await _context.Jobs
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+        }
+
+        public async Task<int> GetTotalCountAsync()
+        {
+            return await _context.Jobs.CountAsync();
         }
     }
 }

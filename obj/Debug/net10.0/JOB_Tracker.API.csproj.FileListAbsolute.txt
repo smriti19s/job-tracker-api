@@ -6,6 +6,8 @@ D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\JOB_Tracker.API
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\JOB_Tracker.API.runtimeconfig.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\JOB_Tracker.API.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\JOB_Tracker.API.pdb
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\AutoMapper.dll
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Azure.Core.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Azure.Identity.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Humanizer.dll
@@ -43,6 +45,9 @@ D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Microsoft.OpenA
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Mono.TextTemplating.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\System.ClientModel.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\System.CodeDom.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\System.Composition.AttributedModel.dll
@@ -151,6 +156,7 @@ D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.csproj.CoreCompileInputs.cache
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.MvcApplicationPartsAssemblyInfo.cs
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.MvcApplicationPartsAssemblyInfo.cache
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.sourcelink.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
@@ -160,14 +166,10 @@ D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\staticwebassets
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\staticwebassets.development.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\swae.build.ex.cache
+D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Trac.0FFC9F60.Up2Date
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\refint\JOB_Tracker.API.dll
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.pdb
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.genruntimeconfig.cache
 D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\ref\JOB_Tracker.API.dll
-D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\JOB_Tracker.API.sourcelink.json
-D:\JOB_TRACKER\JOB_Tracker.API\JOB_Tracker.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

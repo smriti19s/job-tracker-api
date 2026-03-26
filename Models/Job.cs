@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using JOB_Tracker.API.Enum;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace JOB_Tracker.API.Models
 {
@@ -10,8 +11,8 @@ namespace JOB_Tracker.API.Models
 
         public string CompanyName { get; set; }
         public string Position { get; set; }
-
-        public int Status { get; set; }
+        public JobStatus Status { get; set; }
+        // public int Status { get; set; }
 
         public DateTime AppliedDate { get; set; }
 
