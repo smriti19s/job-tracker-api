@@ -9,5 +9,7 @@ namespace JOB_Tracker.API.Repositories
         Task AddAsync(Job job);
         Task UpdateAsync(int id,Job job);
         Task DeleteAsync(int id);
+        Task<IEnumerable<Job>> GetPagedAsync(int pageNumber, int pageSize);
+        Task<int> GetTotalCountAsync();
     }
 }

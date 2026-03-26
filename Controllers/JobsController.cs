@@ -89,5 +89,27 @@ namespace JOB_Tracker.API.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("paged")]
+        public async Task<IActionResult> GetPaged(int pageNumber = 1, int pageSize = 5)
+        {
+            var jobs = await _jobRepository.GetPagedAsync(pageNumber, pageSize);
+
+            var totalCount = await _jobRepository.GetTotalCountAsync(); 
+
+
+            var jobDtos = _mapper.Map<IEnumerable<JobDtoResponse>>(jobs);
+
+
+            return Ok(new
+            {
+                TotalCount = totalCount,
+                PageNumber = pageNumber,
+                PageSize = pageSize,
+                Data = jobDtos
+            });
+        }
+
+
     }
 }
